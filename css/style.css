@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f1f5f8;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.title {
+	margin-bottom: 10px;
+}
+
+.password {
+	outline: none;
+  box-shadow: none;
+	width: 150px;
+	height: 40px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin-bottom: 10px ;
+	cursor: pointer;
+	border-radius: 8px;
+	border: 1px solid;
+	caret-color: transparent;
+}
+
+.password:hover {
+	background-color: darkgrey;
+}
+
+.password-button {
+	cursor: pointer;
+	width: 150px;
+	height: 40px;
+	margin-bottom: 10px;
+	background-color: teal;
+	border-radius: 8px;
+	border: 1px solid;
+}
+
+.password-button:hover {
+	background-color: burlywood;
+}
